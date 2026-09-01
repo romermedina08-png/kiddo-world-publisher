@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Privacy Policy for Kiddo World Publisher. One access token on one computer; no data collected from anyone.">
+<meta name="robots" content="index, follow">
+<title>Kiddo World Publisher Privacy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --bg: #FBFCFD;
+    --surface: #FFFFFF;
+    --ink: #16202B;
+    --muted: #55697A;
+    --accent: #1F5F73;
+    --rule: #DBE3EA;
+    --mark: #EDF3F5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0E1519;
+      --surface: #141D23;
+      --ink: #E4ECF1;
+      --muted: #96A7B3;
+      --accent: #6FBED2;
+      --rule: #24323B;
+      --mark: #1A262D;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0E1519;
+    --surface: #141D23;
+    --ink: #E4ECF1;
+    --muted: #96A7B3;
+    --accent: #6FBED2;
+    --rule: #24323B;
+    --mark: #1A262D;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    margin: 0;
+    padding: 0 24px 96px;
+  }
+
+  .sheet { max-width: 44rem; margin: 0 auto; }
+
+  header.doc {
+    padding: 72px 0 32px;
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .eyebrow {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0;
+  }
+
+  h1 {
+    font-family: "Newsreader", Georgia, "Times New Roman", serif;
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 2.9rem);
+    line-height: 1.12;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+    margin: 0;
+  }
+
+  .standfirst {
+    font-family: "Newsreader", Georgia, serif;
+    font-size: 1.1rem;
+    color: var(--muted);
+    max-width: 34rem;
+    margin: 0;
+  }
+
+  dl.facts {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 6px 22px;
+    margin: 10px 0 0;
+    font-size: 14px;
+  }
+  dl.facts dt { color: var(--muted); font-weight: 500; }
+  dl.facts dd { margin: 0; }
+
+  section { padding-top: 40px; }
+
+  h2 {
+    font-family: "Newsreader", Georgia, serif;
+    font-weight: 500;
+    font-size: 1.42rem;
+    line-height: 1.25;
+    margin: 0 0 12px;
+    display: flex;
+    gap: 14px;
+    align-items: baseline;
+  }
+
+  .n {
+    font-family: "Public Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    flex: none;
+    padding-top: 4px;
+  }
+
+  p { margin: 0 0 14px; max-width: 40rem; }
+
+  ul {
+    margin: 0 0 14px;
+    padding-left: 20px;
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  li::marker { color: var(--accent); }
+
+  strong { font-weight: 600; }
+
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  .callout {
+    background: var(--mark);
+    border-left: 3px solid var(--accent);
+    padding: 16px 20px;
+    margin: 0 0 14px;
+    max-width: 40rem;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+
+  /* La tabla de datos es el corazon del documento: que se lea de un vistazo
+     que hay dos filas y ninguna sale del ordenador. */
+  .table-wrap { overflow-x: auto; margin: 0 0 14px; max-width: 40rem; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14.5px;
+  }
+  th, td {
+    text-align: left;
+    padding: 11px 14px 11px 0;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  th {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border-bottom-color: var(--ink);
+  }
+
+  footer.doc {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    font-size: 14px;
+    color: var(--muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 28px;
+  }
+</style>
+</head>
+<body>
+
+<div class="sheet">
+
+  <header class="doc">
+    <p class="eyebrow">Privacy Policy</p>
+    <h1>Kiddo World Publisher</h1>
+    <p class="standfirst">
+      The short version: this tool holds one access token on one computer,
+      collects nothing about anybody, and sends nothing to anyone.
+    </p>
+    <dl class="facts">
+      <dt>Operator</dt>
+      <dd>Romer Roberto Medina Peguero</dd>
+      <dt>Channel</dt>
+      <dd>kiddo world /play and learning</dd>
+      <dt>Effective</dt>
+      <dd>1 September 2026</dd>
+    </dl>
+  </header>
+
+  <section>
+    <h2><span class="n">01</span>Scope</h2>
+    <p>
+      This policy covers Kiddo World Publisher, an internal tool that uploads
+      videos produced by the operator to the drafts of the operator's own
+      TikTok account. The application has no public users, no website, no
+      sign-up, and no user accounts of its own.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="n">02</span>What the application handles</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Why</th><th>Where it is kept</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>TikTok access and refresh tokens</td>
+            <td>To upload a video to the operator's own drafts without asking
+                for a password</td>
+            <td>A file on the operator's computer</td>
+          </tr>
+          <tr>
+            <td>Video files and their captions</td>
+            <td>They are the thing being uploaded</td>
+            <td>The operator's computer, then TikTok</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      That is the complete list. The tokens are issued by TikTok when the
+      operator approves the application on TikTok's own authorization screen.
+      The application never sees or stores a TikTok password.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="n">03</span>What it does not collect</h2>
+    <ul>
+      <li>No personal information about viewers, followers, or any other
+        TikTok user.</li>
+      <li>No analytics, tracking pixels, cookies, or advertising identifiers.</li>
+      <li>No location data, contacts, or device identifiers.</li>
+      <li>No data about anyone other than the operator's own account.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="n">04</span>Sharing</h2>
+    <p>
+      Nothing is shared, sold, or transferred to anyone. There are no third
+      parties, no processors, and no advertising partners. The only service the
+      application contacts is TikTok itself, to perform the upload the operator
+      asked for.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="n">05</span>Retention and deletion</h2>
+    <p>
+      The stored token stays on the operator's computer for as long as the tool
+      is in use. Deleting the token file removes it immediately. Uninstalling
+      the tool, or revoking access as described below, ends all access.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="n">06</span>How to revoke access</h2>
+    <div class="callout">
+      <p>
+        In the TikTok app: <strong>Profile → Settings and privacy → Security
+        and permissions → Manage app permissions</strong>, then remove Kiddo
+        World Publisher. Access stops at once, and any stored token becomes
+        useless.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="n">07</span>Children</h2>
+    <p>
+      The channel makes videos for young children, but <strong>this
+      application is not for children and is not used by them</strong>. It is a
+      publishing tool run by one adult on one computer. It does not knowingly
+      collect information from anyone, and it collects nothing at all from
+      children.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="n">08</span>Security</h2>
+    <p>
+      The token file is stored on the operator's own computer and is not
+      committed to any repository or shared drive. All communication with
+      TikTok uses HTTPS.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="n">09</span>Changes</h2>
+    <p>
+      If this policy changes, the updated version appears on this page with a
+      new effective date.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="n">10</span>Contact</h2>
+    <p>
+      Questions about privacy, or a request to delete data:
+      <a href="mailto:romermedinapeguero@gmail.com">romermedinapeguero@gmail.com</a>.
+    </p>
+  </section>
+
+  <footer class="doc">
+    <span>Kiddo World Publisher</span>
+    <span>Privacy Policy</span>
+    <span>Effective 1 September 2026</span>
+  </footer>
+
+</div>
+</body>
+</html>
