@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kiddo World Publisher</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+:root { --bg:#FBFCFD; --ink:#16202B; --muted:#55697A; --accent:#1F5F73; --rule:#DBE3EA; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg:#0E1519; --ink:#E4ECF1; --muted:#96A7B3; --accent:#6FBED2; --rule:#24323B; } }
+:root[data-theme="dark"] { --bg:#0E1519; --ink:#E4ECF1; --muted:#96A7B3;
+  --accent:#6FBED2; --rule:#24323B; }
+body { background:var(--bg); color:var(--ink); margin:0; padding:80px 24px;
+  font-family:"Public Sans",-apple-system,"Segoe UI",sans-serif; line-height:1.65; }
+.sheet { max-width:38rem; margin:0 auto; display:flex; flex-direction:column; gap:14px; }
+.eyebrow { font-size:12px; font-weight:600; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--accent); margin:0; }
+h1 { font-family:"Newsreader",Georgia,serif; font-weight:500; font-size:2.4rem;
+  line-height:1.15; margin:0; text-wrap:balance; }
+p { color:var(--muted); margin:0; max-width:34rem; }
+ul { list-style:none; padding:0; margin:18px 0 0; display:flex; flex-direction:column; gap:0; }
+li { border-top:1px solid var(--rule); }
+li:last-child { border-bottom:1px solid var(--rule); }
+a { display:block; padding:16px 0; color:var(--ink); text-decoration:none;
+  font-weight:500; }
+a:hover, a:focus-visible { color:var(--accent); }
+a span { display:block; font-size:14px; font-weight:400; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <p class="eyebrow">Legal</p>
+  <h1>Kiddo World Publisher</h1>
+  <p>An internal tool that uploads finished videos to the TikTok drafts of the
+     channel <em>kiddo world /play and learning</em>. It is not distributed and
+     has no public users.</p>
+  <ul>
+    <li><a href="terms.html">Terms of Service
+        <span>What the tool does, who runs it, and the single permission it asks for.</span></a></li>
+    <li><a href="privacy.html">Privacy Policy
+        <span>One access token on one computer. Nothing collected, nothing shared.</span></a></li>
+  </ul>
+</div>
+</body>
+</html>
